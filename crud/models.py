@@ -86,17 +86,6 @@ class Tipo_Incidencia(models.Model):
         return self.incidencia
     
 
-
-class QrToken(models.Model):
-    token = models.CharField(max_length=36, unique=True)
-    created_at = models.DateTimeField(auto_now_add=True)
-    used = models.BooleanField(default=False)
-
-    def __str__(self):
-        return self.token
-    
-
-
 class Alerta(models.Model):
     idAlerta = models.CharField(max_length=6, primary_key=True)
     descripcion = models.CharField(max_length=500)

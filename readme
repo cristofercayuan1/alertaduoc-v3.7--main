@@ -32,41 +32,33 @@ ADMINISTRADORES  DE SERVICIOS GENERALES:
 
 ADMINISTRADORES  DE LIMPIEZA:
 1. user: AdminAseo1
-   contraseña: adminalerta
+   contraseña: a12345678
 2. user: adminalerta
-   contraseña: adminalerta
+   contraseña: a12345678
 
 ADMINISTRADORES  DE SEGURIDAD:
-1. user: adminalerta
-   contraseña: adminalerta
-2. user: adminalerta
-   contraseña: adminalerta
+1. user: AdminSeguridad
+   contraseña: a12345678
 
 
 ADMINISTRADORES  DE TECNOLOGIA:
-1. user: adminalerta
-   contraseña: adminalerta
-2. user: adminalerta
-   contraseña: adminalerta
+1. user: AdminTecnologia
+   contraseña: a12345678
 
 
 ADMINISTRADORES  DE VENTILACION:
 1. user: AdminVentilacion1
    contraseña: a12345678
-2. user: adminalerta
-   contraseña: adminalerta
 
 -- LISTA DE USUARIOS PERSONAL APOYO --
 
 APOYO SERVICIOS GENERALES:
-1. user: adminalerta
-   contraseña: adminalerta
-2. user: adminalerta
-   contraseña: adminalerta
-3. user: adminalerta
-   contraseña: adminalerta
-4. user: adminalerta
-   contraseña: adminalerta
+1. user: ApoyoGeneral1
+   contraseña: a12345678
+2. user: ApoyoGeneral2
+   contraseña: a12345678
+3. user: ApoyoGeneral3
+   contraseña: a12345678
 
 APOYO LIMPIEZA:
 1. user: ApoyoAseo1

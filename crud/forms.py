@@ -238,13 +238,6 @@ class EspacioEditForm(forms.ModelForm):
     
 
 
-
-
-
-
-
-
-
 # Formularios de Alerta
 class AlertaForm(forms.ModelForm):
     ESTADO_CHOICES = [

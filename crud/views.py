@@ -79,7 +79,6 @@ def solicitudes(request):
     return render(request, 'solicitudes.html')
 
 
-
 def login_view(request):
     if request.method == 'POST':
         form = LoginForm(request.POST)
@@ -851,15 +850,6 @@ def detalle_estado_alerta(request, alerta_id):
 
     fecha_actual = timezone.now()
     return render(request, 'detalle_estado_alerta.html', {'alerta': alerta, 'solucion_alerta': solucion_alerta, 'fecha_actual': fecha_actual})
-
-
-
-
-
-
-
-
-
 
 
 
